@@ -35,12 +35,12 @@ const getFollowers = async (urls) => {
 
 app.get("/", async (req, res) => {
   try {
-    const result = await getFollowers([
+    const results = await getFollowers([
       "https://www.youtube.com/channel/UCAQg09FkoobmLquNNoO4ulg",
       "https://www.youtube.com/channel/UCVPjtOVcnKaSRI8IO3KSetA",
       "https://www.youtube.com/c/FKnight",
     ]);
-    res.send(result);
+    res.send(results);
   } catch (e) {
     res.send(e);
   }
