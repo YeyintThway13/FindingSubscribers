@@ -36,9 +36,9 @@ const getFollowers = async (urls) => {
 app.get("/", async (req, res) => {
   try {
     const results = await getFollowers([
-      "https://www.youtube.com/channel/UCAQg09FkoobmLquNNoO4ulg",
-      "https://www.youtube.com/channel/UCVPjtOVcnKaSRI8IO3KSetA",
-      "https://www.youtube.com/c/FKnight",
+      "https://www.youtube.com/c/bellapoarch",
+      "https://www.youtube.com/user/leolego",
+      "https://www.youtube.com/channel/UC6ktP3PLU5sAJxN9Rb0TALg",
     ]);
     res.send(results);
   } catch (e) {
