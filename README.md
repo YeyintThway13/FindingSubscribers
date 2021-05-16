@@ -1,5 +1,5 @@
 # FindingSubscribers
-This is a repo for my own project to find subscriber counts for the youtube channels i like. In this project I dun use any api. I create this only with web scraping.
+This is a repo for my own project to find subscriber counts for the youtube channels I like. In this project I dun use any api. I create this only with web scraping using puppeteer(Headless Browser for chrome). 
 
 ## Demo 
 
